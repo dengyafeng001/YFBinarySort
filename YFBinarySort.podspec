@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YFBinarySort'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '二进制重排order File文件生成'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = '二进制重排order File文件生成，减少启动过程中page fault异常次数'
 
-  s.homepage         = 'https://github.com/dengyafeng001/YFBinarySort'
+  s.homepage         = 'http://172.16.7.53:9090/cpdaily-mobile/YFBinarySort'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dengyafeng001' => 'deng_web@163.com' }
-  s.source           = { :git => 'https://github.com/dengyafeng001/YFBinarySort.git', :tag => s.version.to_s }
+  s.source           = { :git => 'ssh://git@172.16.7.53:2224/cpdaily-mobile/YFBinarySort.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
