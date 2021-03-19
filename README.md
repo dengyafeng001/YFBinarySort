@@ -4,9 +4,9 @@
 
 ## 使用
 三步完成启动优化之-二进制重排
-1.首页，在你的app第一个页面显示完毕后调用如下方法：`[YFMakeOrderFile getOrderFile];`
-2.然后把`ret.order`文件放到你app的工程根目录下
-3.在`Build Settings`的`Order File`编译选项中指定路径为`${SRCROOT}/ret.order`
+1. 首页，在你的app第一个页面显示完毕后调用如下方法：`[YFMakeOrderFile getOrderFile];`
+2. 然后把`ret.order`文件放到你app的工程根目录下
+3. 在`Build Settings`的`Order File`编译选项中指定路径为`${SRCROOT}/ret.order`
 
 ## 安装
 
