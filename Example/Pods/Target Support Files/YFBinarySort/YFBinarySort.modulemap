@@ -1,0 +1,6 @@
+framework module YFBinarySort {
+  umbrella header "YFBinarySort-umbrella.h"
+
+  export *
+  module * { export * }
+}

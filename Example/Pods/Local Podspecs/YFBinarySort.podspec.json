@@ -1,0 +1,26 @@
+{
+  "name": "YFBinarySort",
+  "version": "0.1.0",
+  "summary": "sort macho binary by clang inject",
+  "description": "sort macho binary by clang inject",
+  "homepage": "https://github.com/Atmosphere201410/YFBinarySort",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Atmosphere201410": "deng_web@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Atmosphere201410/YFBinarySort.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YFBinarySort/Classes/**/*",
+  "user_target_xcconfig": {
+    "OTHER_CFLAGS": "-fsanitize-coverage=func,trace-pc-guard",
+    "OTHER_SWIFT_FLAGS": "-sanitize-coverage=func -sanitize=undefined"
+  }
+}

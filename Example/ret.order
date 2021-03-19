@@ -1,0 +1,14 @@
++[YFViewController load]
+_$s20YFBinarySort_Example9SwiftTestC05swiftE0yyFZTo
+_$s20YFBinarySort_Example9SwiftTestC05swiftE0yyFZ
+_$ss5print_9separator10terminatoryypd_S2StFfA0_
+_$ss5print_9separator10terminatoryypd_S2StFfA1_
+_main
+-[YFAppDelegate window]
+-[YFAppDelegate setWindow:]
+-[YFAppDelegate application:didFinishLaunchingWithOptions:]
+-[YFViewController viewDidLoad]
+_testc
+_testblock_block_invoke
+-[YFAppDelegate applicationDidBecomeActive:]
+-[YFViewController touchesBegan:withEvent:]
